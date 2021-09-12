@@ -1,5 +1,5 @@
-var res = window.prompt("Enter Number");
-var res2 = window.prompt("Enter Number2");
+var res = prompt("Enter Number");
+var res2 = prompt("Enter Number2");
 var Num1 = parsInt(res);
 var Num2 = parsInt(res2);
 var sum = Num1 + Num2;
