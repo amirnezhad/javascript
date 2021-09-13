@@ -1,13 +1,15 @@
 const prompt = require('prompt-sync')();
 
+function add(leftOperand, rightOperand) {
+    let firstInput = parseInt(leftOperand);
+    let secondInput = parseInt(rightOperand);
+    //   let result = firstInput+ secondInput
+    return firstInput + secondInput
+
+}
+// start:
 let res = prompt("Enter first operand:\t");
 let res2 = prompt("Enter second operand:\t");
-let Num1 = parseInt(res);
-let Num2 = parseInt(res2);
-let sum = Num1 + Num2;
-console.log("the sum is:" + sum);
 
-// function sum(a, b) {
-//     return a + b
-// }
-// console.log(sum(8, 4));
+let result = add(res, res2);
+console.log(result)
