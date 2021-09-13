@@ -1,9 +1,11 @@
-var res = prompt("Enter Number");
-var res2 = prompt("Enter Number2");
-var Num1 = parsInt(res);
-var Num2 = parsInt(res2);
-var sum = Num1 + Num2;
-alert("the sum is:" + sum);
+const prompt = require('prompt-sync')();
+
+let res = prompt("Enter first operand:\t");
+let res2 = prompt("Enter second operand:\t");
+let Num1 = parseInt(res);
+let Num2 = parseInt(res2);
+let sum = Num1 + Num2;
+console.log("the sum is:" + sum);
 
 // function sum(a, b) {
 //     return a + b
